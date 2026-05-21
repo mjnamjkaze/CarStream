@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    YouTube-style play button foreground for adaptive icon.
+    The adaptive icon viewport is 108x108dp, safe zone is center 72x72dp.
+    This draws a white rounded-rectangle "screen" with a red play triangle inside,
+    matching the YouTube logo shape exactly.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- White rounded-rectangle (the YouTube "play button" outer shape) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M 28,42
+            Q 28,36 34,36
+            L 74,36
+            Q 80,36 80,42
+            L 80,66
+            Q 80,72 74,72
+            L 34,72
+            Q 28,72 28,66
+            Z" />
+
+    <!-- Red play triangle in center of white rectangle -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="
+            M 46,48
+            L 46,60
+            L 64,54
+            Z" />
+</vector>

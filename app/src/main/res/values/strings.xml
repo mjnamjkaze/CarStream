@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">YouTube</string>
+    <string name="media_notification_channel_name">Media playback</string>
+    <string name="media_notification_channel_description">Controls media playback in web pages</string>
+    <string name="media_notification_content_text">Playing media in WebView</string>
+</resources>
