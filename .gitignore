@@ -15,5 +15,4 @@ local.properties
 icon.png
 /test
 *.apk
-*.7z
 build_output.txt
